@@ -103,7 +103,7 @@ st.sidebar.markdown(
     </a>
     <style>
         .animated-button {
-            background: linear-gradient(45deg, #ff0000, #ff7300,rgb(231, 216, 51),rgb(85, 219, 32), #00e1ff);
+            background: linear-gradient(45deg, #ff0000, #ff7300,rgb(217, 199, 6),rgb(85, 219, 32), #00e1ff);
             background-size: 400% 400%;
             color: white;
             padding: 10px 20px;
