@@ -15,20 +15,20 @@ st.markdown(
     
     .stApp {
         margin-bottom: 25px;
-        background-color: #E6E6FA;
-        box-shadow: 0px 8px 24px rgba(32, 178, 170, 0.4);
+        background-color:rgb(38, 166, 212);
+        box-shadow: 0px 8px 24px rgb(16, 221, 211);
       
     div[data-baseweb="select"] > div {
-        background-color: #E0FFFF !important;
+        background-color:rgb(170, 255, 251) !important;
     }
     input {
-        background-color: #E0FFFF !important;
+        background-color: rgb(170, 255, 251) !important;
     }    
            
     h1, label, span {
         text-align: start;
         font-weight: bold;
-        background-color: #20B2AA; 
+        background-color:rgb(170, 255, 251); 
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: 0.3s;       
@@ -37,7 +37,7 @@ st.markdown(
     /* Sidebar bg */
     .stSidebar {
         margin-top: 57px;
-        background-color: #ADD8E6;              
+        background-color:rgb(33, 122, 122);              
     }
     
     /* Arrow color change */
@@ -52,19 +52,19 @@ st.markdown(
     .stButton>button {
         color: white !important;
         padding: 12px 60px;
-        background: #20B2AA;
+        background:rgb(33, 122, 122);
         font-size: 18px;
         font-weight: bold;
         border: none;
         border-radius: 10px;
         cursor: pointer;
         transition: transform 0.3s ease-in-out;
-        box-shadow: 0px 2px 12px rgba(0, 255, 255, 0.6);
+        box-shadow: 0px 2px 12px rgba(48, 230, 224, 0.6);
     }
     
     .stButton>button:hover {
         transform: scale(1.05);
-        background: linear-gradient(45deg, #1E908A, #3FC1B0);
+        background: linear-gradient(45deg, #217A7A, #2FA3A3);
     }
        
     .result {
@@ -73,13 +73,13 @@ st.markdown(
      padding: 10px 20px; /* Balanced padding */
      border-radius: 8px; /* Smoother rounded corners */
      margin-top: 20px;
-     box-shadow: 0px 2px 12px rgba(0, 255, 255, 0.6);
+     box-shadow: 0px 2px 12px rgba(70, 247, 247, 0.82);
      width: fit-content; /* Adapts to content width */
      max-width: 80%; /* Prevents overflow */
      margin-left: auto;
      margin-right: auto; /* Centers the box */
      border: 2px solid #20B2AA;
-     background-color: #E0FFFF;
+     background-color: rgb(170, 255, 251);
     } 
     </style>
     """,
@@ -324,4 +324,4 @@ if st.button(lang["convert"]):
     """, unsafe_allow_html=True)
     
 # Footer
-st.markdown("<br><br><p style='text-align: center; color:#20B2AA '>Created by Hamza Hassan</p>", unsafe_allow_html=True)
+st.markdown("<br><br><p style='text-align: center; color:background: linear-gradient(45deg, #217A7A, #2FA3A3); '>Created by Hamza Hassan</p>", unsafe_allow_html=True)
